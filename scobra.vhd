@@ -189,9 +189,9 @@ begin
     -- Timing hardware is coded differently to the real hw
     -- to avoid the use of multiple clocks. Result is identical.
     if (ENA = '1') then
-      if (hcnt = "010000001") then -- 081
+      if (hcnt = "010001001") then -- 089 (081 according to schematics?)
         hblank <= '1';
-      elsif (hcnt = "011111111") then -- 0f9
+      elsif (hcnt = "011111111") then -- 0FF (0F9 according to schematics?)
         hblank <= '0';
       end if;
 

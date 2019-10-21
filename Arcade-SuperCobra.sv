@@ -284,7 +284,7 @@ always @(posedge clk_sys) begin
         ce_pix <= old_clk & ~ce_6p;
 end
 
-arcade_rotate_fx #(264,224,12,0) arcade_video
+arcade_rotate_fx #(266,224,12,0) arcade_video
 (
         .*,
 
@@ -366,8 +366,8 @@ always @(posedge clk) begin
 	if(innew[2]) last_v <= 2'b01; // D
 	if(innew[3]) last_v <= 2'b10; // U
 	
-	out[1:0] = in1[1:0] == 2'b11 ? last_h : in1[1:0]; 
-	out[3:2] = in1[3:2] == 2'b11 ? last_v : in1[3:2]; 
+	out[1:0] <= in1[1:0] == 2'b11 ? last_h : in1[1:0]; 
+	out[3:2] <= in1[3:2] == 2'b11 ? last_v : in1[3:2]; 
 end
 
 endmodule
