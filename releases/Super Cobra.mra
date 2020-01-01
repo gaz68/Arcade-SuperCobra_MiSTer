@@ -1,0 +1,22 @@
+<misterromdescription>
+	<name>Super Cobra</name>
+	<mameversion>0216</mameversion>
+	<mratimestamp>202001010000</mratimestamp>
+	<year>1981</year>
+	<manufacturer>Konami</manufacturer>
+	<category>Space / Defender</category>
+	<rbf>supercobra</rbf>
+	<rom index="0" zip="scobra.zip" md5="ec66ab23a8767bcacc3fc06198e7e16e" type="split">
+		<part name="epr1265.2c"/>
+		<part name="2e"/>
+		<part name="epr1267.2f"/>
+		<part name="2h"/>
+		<part name="epr1269.2j"/>
+		<part name="2l"/>
+		<part name="epr1273.5f"/>
+		<part name="epr1274.5h"/>
+		<part name="5c"/>
+		<part name="5d"/>
+		<part name="5e"/>
+	</rom>
+</misterromdescription>
