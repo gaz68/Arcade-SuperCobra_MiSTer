@@ -1,3 +1,18 @@
+**************************************************************************************
+**************************************************************************************
+**
+** NOTE: This core has been archived because it is now covered by the Scramble arcade 
+**       core in the main MiSTer repository here:
+**
+**       https://github.com/MiSTer-devel/Arcade-Scramble_MiSTer
+**
+**       No futher development of this version is anticipated.
+**
+**************************************************************************************
+**************************************************************************************
+
+
+
 ---------------------------------------------------------------------------------
 -- 
 -- Arcade: Super Cobra port to MiSTer by gaz68 (https://github.com/gaz68)
